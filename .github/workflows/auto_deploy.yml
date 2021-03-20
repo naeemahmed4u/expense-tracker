@@ -31,7 +31,7 @@ jobs:
       #- run: npm ci
       - run: npm install
       #- run: npm cache clean --force
-      - run: npm run build --if-present
+      - run: npm run build 
        
       # Runs a set of commands using the runners shell
       - name: installing surge
